@@ -1,0 +1,11 @@
+make: /home/srisurya/kernel/Uber-8.0/bin/aarch64-linux-android-gcc: Command not found
+scripts/kconfig/conf  --silentoldconfig Kconfig
+***
+*** Configuration file ".config" not found!
+***
+*** Please run some configurator (e.g. "make oldconfig" or
+*** "make menuconfig" or "make xconfig").
+***
+make[2]: *** [scripts/kconfig/Makefile:41: silentoldconfig] Error 1
+make[1]: *** [Makefile:529: silentoldconfig] Error 2
+make: *** No rule to make target 'include/config/auto.conf', needed by 'include/config/kernel.release'.  Stop.
